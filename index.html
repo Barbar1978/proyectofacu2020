@@ -1,0 +1,623 @@
+<!DOCTYPE html>
+<form name="form1" method="post" action="/genen/contacto/" onsubmit="return validar(this) && checkSubmit()"
+    language="JavaScript">
+    <html lang="en">
+
+    <head>
+        <title>JB GESTORIA - Gestiones Integrales</title>
+        <meta name="rights" content="Gestoria Uno – www.jbgestoria.com.ar" />
+        <meta name="description"
+            content="Gestoria Uno - Empresa dedicada a la gestion de tramites y asesoramiento en Registro de la Propiedad, Registro Civil, Sucesiones, expedientes judicialesl para abogados, escribanos, particulares, empersas y particulares." />
+        <meta name="keywords"
+            content="Gestoría judicial, Gestiones judiciales, Estudio jurídico, Trámites Legales, Judiciales, Tramites Registrales, Diligencias, Diligenciamientos, Cedulas, Partidas, Defunción, Nacimiento, Matrimonio, Libre deudas, Registro del automotor, Registro de las personas, Procuración, Seguimientos de expedientes, Veraz, Nosis, Certificados, Certificaciones, Oficios, Juicios universales, Informes comerciales, Servicios inscripciones, Declaratorias herederos, Catastro, Embargos e inhibiciones, Declaratorias, Cesiones, Testimonios, Edictos, Minutas, Inscripciones de divorcio, Notificaciones, Ley 22172, Segundo testimonio, Tramites online, Declaratorias, Mandamientos, Gestiones judiciales, Averiguación,  Averiguaciones, Estudio judicial, Consultora judicial, Registro de la propiedad, Registro de la propiedad inmueble capital, Registro de la propiedad inmueble la plata, Registro de las personas capital, Levantamientos, Gestión, Gestiones, Geler, Cardigonte, Legalintegral" />
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+        <link href="css/jquery.bxslider.css" rel="stylesheet" />
+        <!-- Google font-->
+        <!--<link href='https://fonts.googleapis.com/css?family=Roboto:400,300|Raleway:300,400,900,700italic,700,300,600' rel='stylesheet' type='text/css'>-->
+        <!-- Bootstrap CSS-->
+        <link href="css/bootstrap.min.css" rel="stylesheet">
+        <!--Custom css-->
+        <link rel="stylesheet" type="text/css" href="style.css">
+
+        <style type="text/css">
+            #myPage #myDiv #mas_utilizados .container .row .col-md-3.col-sm-6.col-xs-12 .wrap-item.text-center a p {
+                color: #000080;
+            }
+
+            #myPage #myDiv #mas_utilizados .container .row .col-md-3.col-sm-6.col-xs-12 .wrap-item.text-center a p {
+                color: #000;
+            }
+
+            #myPage #myDiv #menu_servicios .container .row .col-md-3.col-sm-6.col-xs-12 .service-item a h3 font {
+                color: #800000;
+            }
+
+            #myPage #myDiv #menu_servicios .container .row .col-md-3.col-sm-6.col-xs-12 .service-item a h3 font {
+                color: #800000;
+            }
+
+            #myPage #myDiv #menu_servicios .container .row .col-md-3.col-sm-6.col-xs-12 .service-item a p font {
+                font-family: Verdana, Geneva, sans-serif;
+            }
+
+            #myPage #myDiv #menu_servicios .container .row .col-md-3.col-sm-6.col-xs-12 .service-item a p font {
+                color: #000;
+            }
+
+            #myPage #myDiv #menu_servicios .container .row .col-md-3.col-sm-6.col-xs-12 .service-item a h3 {
+                color: #004080;
+            }
+        </style>
+
+        <!-- Global site tag (gtag.js) - Google Analytics -->
+        <script async src="https://www.googletagmanager.com/gtag/js?id=UA-40557661-1"></script>
+        <script>
+            window.dataLayer = window.dataLayer || [];
+            function gtag() { dataLayer.push(arguments); }
+            gtag('js', new Date());
+
+            gtag('config', 'UA-40557661-1');
+        </script>
+    </head>
+
+    <body id="myPage" data-spy="scroll" data-target=".navbar" data-offset="60" onLoad="myFunction()">
+
+        <div class="loader"></div>
+        <div id="myDiv">
+
+            <!-- INICIO HEADER-->
+            <div class="header">
+                <div class="bg-color">
+                    <header id="main-header">
+                        <nav class="navbar navbar-default">
+                            <div class="container">
+                                <div class="navbar-header">
+                                    <button type="button" class="navbar-toggle" data-toggle="collapse"
+                                        data-target="#myNavbar">
+                                        <span class="icon-bar"></span>
+                                        <span class="icon-bar"></span>
+                                        <span class="icon-bar"></span>
+                                    </button>
+                                    <a class="navbar-brand" href="index.html">JB<span class="logo-dec">
+                                            GESTORIA</span></a>
+                                </div>
+                                <div class="collapse navbar-collapse" id="myNavbar">
+                                    <ul class="nav navbar-nav navbar-right">
+                                        <li class="active"><a href="index.html">Inicio</a></li>
+                                        <li class=""><a href="/html/tarifas.html"></a></li>
+                                        <li class=""><a href="#mas_utilizados">TRAMITES + UTILIZADOS</a></li>
+                                        <li class=""><a href="#menu_servicios">MENU SERVICIOS</a></li>
+                                        <li class=""><a href="#contact">CONTACTO</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </nav>
+                    </header>
+                    <div class="wrapper">
+                        <div class="container">
+                            <div class="row">
+                                <div class="banner-info text-center">
+                                    <h1 class="bnr-title">BIENVENIDOS A</h1>
+                                    <h2 class="bnr-sub-title">JB GESTORIA</h2>
+                                    <h1 class="bnr-sub-title">SIMPLE - RAPIDO - PROFESIONAL</h1>
+                                    <p class="bnr-para">&nbsp;</p>
+                                    <p class="bnr-para"><b>Gracias por su visita, nuestro objetivo es satisfacer las
+                                            necesidades de Profesionales, Empresas, Particulares y
+                                            Municipios en cuanto a gestiones y trámites necesiten en el ámbito de la
+                                            Capital Federal y Provincia de Buenos Aires.</b></p>
+                                    <p class="bnr-para"><b>No dude en contactarnos, estamos para aclarar sus dudas y
+                                            llevar adelante su gestión.</b></p>
+                                    <p class="bnr-para">&nbsp;</p>
+                                    <p class="bnr-para"><strong><b>Atentamente Equipo de JB GESTORIA</b></strong></p>
+                                    <div class="overlay-detail">
+                                        <a href="#feature"><i class="fa fa-angle-down"></i></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- FIN HEADER-->
+
+            <div align="center">
+
+                <head>
+                    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+                </head>
+
+                <head>
+                    <meta http-equiv="Content-Language" content="es-ar">
+                    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+                </head>
+
+            </div>
+
+            <!-- INICIO MENU TRAMITES MAS UTILIZADOS-->
+            <section id="mas_utilizados" class="section-padding">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-12 text-center">
+                            <p class="sub-title pad-bt15">ACCESO DIRECTO A LOS TRAMITES MAS SOLICITADOS</p>
+                        </div>
+
+                        <!-- INICIO MENU 1-->
+                        <div class="col-md-3 col-sm-6 col-xs-12">
+                            <div class="wrap-item text-center">
+                                <div class="item-img"></div>
+                                <a href="/genen/acdire/credhipo">
+                                    <h3 class="pad-bt15">
+                                        <font color="#800000">Trámites para Crédito Hipotecario / Plan de Viviendas /
+                                        </font>
+                                        <font color="#FF0000">Procrear</font>
+                                    </h3>
+                                    <p><span style="background-color: #FFFF00">
+                                            <font color="#000000">Indice de Titularidad (Libre Catastro)</font>
+                                        </span> - Copia de Planos - Copia de Reglamento - Todo lo que piden los Bancos
+                                        y Procrear al solicitar el crédito</p>
+                                </a>
+                                <hr>
+                            </div>
+                        </div>
+                        <!-- FIN MENU 1-->
+
+                        <!-- INICIO MENU 2-->
+                        <div class="col-md-3 col-sm-6 col-xs-12">
+                            <div class="wrap-item text-center">
+                                <div class="item-img"></div>
+                                <a href="/genen/acdire/garantia/">
+                                    <h3 class="pad-bt15">
+                                        <font color="#800000">Consultar un Inmueble en Garantía</font>
+                                    </h3>
+                                    <p>Verifique un inmueble para efectuar un contrato de locación solicitando Dominio,
+                                        Inhibición, Frecuencia</p>
+                                </a>
+                                <hr>
+                            </div>
+                        </div>
+                        <!-- FIN MENU 2-->
+
+                        <!-- INICIO MENU 3-->
+                        <div class="col-md-3 col-sm-6 col-xs-12">
+                            <div class="wrap-item text-center">
+                                <div class="item-img"></div>
+                                <a href="/genen/acdire/buscainmueble">
+                                    <h3 class="pad-bt15">
+                                        <font color="#800000">Buscar Información de un inmueble</font>
+                                    </h3>
+                                    <p>Planchetas - Cedulas parcelarias - Búsqueda de matrícula - Copia de Asiento
+                                        Registral - Regularización</p>
+                                    <hr>
+                            </div>
+                        </div>
+                        <!-- FIN MENU 3-->
+
+                        <!-- INICIO MENU 4-->
+                        <div class="col-md-3 col-sm-6 col-xs-12">
+                            <div class="wrap-item text-center">
+                                <div class="item-img"></div>
+                                <a href="/genen/acdire/inscripciones/">
+                                    <h3 class="pad-bt15">
+                                        <font color="#800000">Inscripciones</font>
+                                    </h3>
+                                    <p>Inscripción de: Divorcio - Declaratoria de herederos - Testamento</p>
+                                </a>
+                                <hr>
+                            </div>
+                        </div>
+                        <!-- FIN MENU 4-->
+
+                    </div>
+                </div>
+            </section>
+            <!-- FIN MENU TRAMITES MAS UTILIZADOS-->
+
+
+
+
+            <!-- INICIO MENU DE SERVICIOS -->
+            <section id="menu_servicios" class="section-padding">
+
+                <!-- INICIO ITEMS 1 a 4 -->
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-12 text-center">
+                            <h2 class="service-title pad-bt15">MENU DE Servicios</h2>
+                            <p class="sub-title pad-bt15">
+                                <font color="#000001">Seleccione el área de su interés para iniciar el trámite,
+                                    encontrará más información
+                                    sobre los mismos.</font>
+                            </p>
+                            <!-- <hr class="bottom-line"> -->
+                        </div>
+
+                        <!--  INICIO ITEM 1 -->
+                        <div class="col-md-3 col-sm-6 col-xs-12">
+                            <div class="service-item">
+                                <a href="/genen/rpi/">
+                                    <h3>
+                                        <font color="#333333">REGISTRO PROPIEDAD INMUEBLE</font>
+                                    </h3>
+                                    <p>
+                                        <font color="#000001">Dominio - Inhibición - Frecuencia - Indice de Titularidad
+                                            - Búsqueda de Matrícula - Inscripción Declaratoria
+                                            - Embargos - etc.</font>
+                                    </p>
+                                </a>
+                                <hr>
+                            </div>
+                        </div>
+                        <!--  FIN ITEM 1 -->
+
+
+                        <!--  INICIO ITEM 2 -->
+                        <div class="col-md-3 col-sm-6 col-xs-12">
+                            <div class="service-item">
+                                <a href="/genen/cat/">
+                                    <h3>
+                                        <font color="#333333">CATASTRO - ARBA - AGIP - ABL</font>
+                                    </h3>
+                                    <p>
+                                        <font color="#000001">Plancheta - Cedula parcelaria - Copy de pantalla - Copia
+                                            de planos - Mensura - Valuación Fiscal
+                                            - Partida Arba y ABL - Certificado Catastral - etc.</font>
+                                    </p>
+                                </a>
+                                <hr>
+                            </div>
+                        </div>
+                        <!--  FIN ITEM 2 -->
+
+                        <!--  INICIO ITEM 3 -->
+                        <div class="col-md-3 col-sm-6 col-xs-12">
+                            <div class="service-item">
+                                <a href="/genen/rc/">
+                                    <h3>
+                                        <font color="#333333">REGISTRO CIVIL</font>
+                                    </h3>
+                                    <p>
+                                        <font color="#000001">Copia de actas / partidas (nacimiento, defunción,
+                                            matrimonio) - Apostilla Haya - Inscripción de divorcio -
+                                            Anotaciones marginales - etc.</font>
+                                    </p>
+                                </a>
+                                <hr>
+                            </div>
+                        </div>
+                        <!--  FIN ITEM 3 -->
+
+                        <!--  INICIO ITEM 4 -->
+                        <div class="col-md-3 col-sm-6 col-xs-12">
+                            <div class="service-item">
+                                <a href="/genen/rpa/">
+                                    <h3>
+                                        <font color="#333333">REGISTRO AUTOMOTOR</font>
+                                    </h3>
+                                    <p>
+                                        <font color="#000001">Informes de dominio - inhibición - histórico - nominal
+                                            (índice de titularidad) - Embargos, etc.</font>
+                                    </p>
+                                </a>
+                                <hr>
+                            </div>
+                        </div>
+                        <!--  FIN ITEM 4 -->
+
+                    </div>
+                </div>
+                <!-- FIN ITEMS 1 a 4 -->
+
+
+
+
+
+                <!-- INICIO ITEMS 5 a 8 -->
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-12 text-center">
+                            <hr class="bottom-line">
+                        </div>
+
+                        <!--  INICIO ITEM 5 -->
+                        <div class="col-md-3 col-sm-6 col-xs-12">
+                            <div class="service-item">
+                                <a href="/genen/cnelect/">
+                                    <h3>
+                                        <font color="#333333">CAMARA NAC. ELECTORAL</font>
+                                    </h3>
+                                    <p>
+                                        <font color="#000001">Ultimo domicilio registrado de una persona - Conocer si
+                                            falleció, fecha y lugar, etc. - Certificado de NO Ciudadano Argentino</font>
+                                    </p>
+                                </a>
+                                <hr>
+                            </div>
+                        </div>
+                        <!--  FIN ITEM 5 -->
+
+                        <!--  INICIO ITEM 6 -->
+                        <div class="col-md-3 col-sm-6 col-xs-12">
+                            <div class="service-item">
+                                <a href="/genen/ced/">
+                                    <h3>
+                                        <font color="#333333">CEDULAS y OFICIOS JUDICIALES</font>
+                                    </h3>
+                                    <p>
+                                        <font color="#000001">Cedulas Ley 22.172 - Oficios a diferentes entidades
+                                            (Oficinas públicas, empresas privadas, etc.)</font>
+                                    </p>
+                                </a>
+                                <hr>
+                            </div>
+                        </div>
+                        <!--  FIN ITEM 6 -->
+
+                        <!--  INICIO ITEM 7 -->
+                        <div class="col-md-3 col-sm-6 col-xs-12">
+                            <div class="service-item">
+                                <a href="/genen/infocom/">
+                                    <h3>
+                                        <font color="#333333">INFORMES Y REPORTES COMERCIALES</font>
+                                    </h3>
+                                    <p>
+                                        <font color="#000001">Veraz - Nosis</font>
+                                    </p>
+                                </a>
+                                <hr>
+                            </div>
+                        </div>
+                        <!--  FIN ITEM 7 -->
+
+                        <!--  INICIO ITEM 8 -->
+                        <div class="col-md-3 col-sm-6 col-xs-12">
+                            <div class="service-item">
+                                <a href="/genen/archprot/">
+                                    <h3>
+                                        <font color="#333333">ARCHIVO DE PROTOCOLOS</font>
+                                    </h3>
+                                    <p>
+                                        <font color="#000001">Copias de escrituras y reglamentos - Segundo testimonio.
+                                        </font>
+                                    </p>
+                                </a>
+                                <hr>
+                            </div>
+                        </div>
+                        <!--  FIN ITEM 8 -->
+
+                    </div>
+                </div>
+                <!-- FIN ITEMS 5 a 8 -->
+
+
+
+
+
+                <!-- INICIO ITEMS 9 a 12 -->
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-12 text-center">
+                            <hr class="bottom-line">
+                        </div>
+
+                        <!--  INICIO ITEM 9 
+                        <div class="col-md-3 col-sm-6 col-xs-12">
+                            <div class="service-item">
+                                <a href="/genen/suc/">
+                                    <h3>
+                                        <font color="#333333">SUCESIONES</font>
+                                    </h3>
+                                    <p>
+                                        <font color="#000001">Tramitación de sucesiones en Capital Federal y Provincia
+                                            de Buenos Aires</font>
+                                    </p>
+                                </a>
+                                <hr>
+                            </div>
+                        </div>
+                          FIN ITEM 9 -->
+
+                        <!--  INICIO ITEM 1
+                        <div class="col-md-3 col-sm-6 col-xs-12">
+                            <div class="service-item">
+                                <a href="/terminosycondiciones/">
+                                    <h3>
+                                        <font color="#333333" style="background-color: #FFFF00">* TERMINOS Y CONDICIONES
+                                        </font>
+                                    </h3>
+                                    <p>
+                                        <font color="#000001">Vea los términos y condiciones del servicio de GESTORIA
+                                            UNO</font>
+                                    </p>
+                                </a>
+                                <hr>
+                            </div>
+                        </div>
+                         FIN ITEM 10 -->
+
+                        <!--  INICIO ITEM 11
+                        <div class="col-md-3 col-sm-6 col-xs-12">
+                            <div class="service-item">
+                                <a href="/genen/fol/">
+                                    <h3>
+                                        <font color="#333333" style="background-color: #FFFF00">* FORMULARIOS ON LINE
+                                        </font>
+                                    </h3>
+                                    <p>
+                                        <font color="#000001">Acceda directamente al formulario del trámite que necesita
+                                        </font>
+                                    </p>
+                                </a>
+                                <hr>
+                            </div>
+                        </div>
+                         FIN ITEM 11 -->
+
+                        <!--  INICIO ITEM 12 
+                        <div class="col-md-3 col-sm-6 col-xs-12">
+                            <div class="service-item">
+                                <a href="/tarifasn/">
+                                    <h3>
+                                        <font color="#333333" style="background-color: #FFFF00">* TARIFAS y MEDIOS DE
+                                            PAGO</font>
+                                    </h3>
+                                    <p>
+                                        <font color="#000001">Consulte nuestras tarifas vigentes y los Medios de Pago
+                                        </font>
+                                    </p>
+                                </a>
+                                <hr>
+                            </div>
+                        </div>
+                     
+
+                    </div>
+                </div>
+                <!-- FIN ITEMS 9 a 12 -->
+
+            </section>
+            <!--FIN  MENU DE SERVICIOS -->
+
+
+
+
+
+            <!---->
+
+            <!---->
+
+            <!---->
+            <section id="contact" class="section-padding">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-12 text-center white">
+                            <h2 class="service-title pad-bt15">CONTACTENOS</h2>
+                            <p class="sub-title pad-bt15">Horario de atención : solicitar turno
+                                <BR>Horario de atención telefónica: Lunes a Viernes de 10 a 17 hs
+                            </p>
+                            <hr class="bottom-line white-bg">
+                        </div>
+                        <div class="col-md-6 col-sm-6 col-xs-12">
+                            <div class="loction-info white">
+                                <p><i class="fa fa-map-marker fa-fw pull-left fa-2x"></i><br> Ciudad de La Plata
+                                    -Bs.As-Argentina<br> C1900</p>
+                                <p><i class="fa fa-envelope-o fa-fw pull-left fa-2x"></i>jbgestoria.info@gmail.com </p>
+                                <p><i class="fa fa-envelope-o fa-fw pull-left fa-2x"></i><br> <br>
+
+                                    <a target="popup" href="/whatsapp/">
+                                        <img src="genes/comunes/whatsapp (1).gif" border="0" width="20" height="20"><br>
+                                        <font color="#FFFFFF">(0221)3072673 </font>
+                                </p></a>
+                                </p>
+                                <a target="popup" href="/whatsapp/">
+                                    <img src="genes/comunes/whatsapp (1).gif" border="0" width="20" height="20"><br>
+                                    <font color="#FFFFFF">(0221)4207189 </font>
+                                    </p>
+                                </a>
+                                </p>
+
+                            </div>
+                        </div>
+                        <div class="col-md-6 col-sm-6 col-xs-12">
+                            <div class="loction-info white">
+                                <p><i class="fa fa-map-marker fa-fw pull-left fa-2x"></i>Si desea hacer una consulta</p>
+                                <p><i class="fa fa-envelope-o fa-fw pull-left fa-2x"></i></p>
+
+                                <button id="submit" type="submit" name="Submit"
+                                    class="btn btn-primary btn-submit">CONSULTAR</button>
+                            </div>
+                        </div>
+
+
+
+                        <!--<input id="submit" type="submit" name="Submit" value="  ENVIAR  " style="font-weight: 700" />-->
+
+                    </div>
+</form>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!---->
+
+
+<!---->
+<footer id="footer">
+    <div class="container">
+        <div class="row text-center">
+
+            <p>COPYRIGHT ® 2022 jbgestoria | TODOS LOS DERECHOS RESERVADOS</p>
+        </div>
+    </div>
+</footer>
+<!---->
+
+
+</div>
+
+
+<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+<!-- Include all compiled plugins (below), or include individual files as needed -->
+<script src="js/bootstrap.min.js"></script>
+<!-- bxSlider Javascript file -->
+<script src="js/jquery.bxslider.min.js"></script>
+<script>
+    $('.bxslider').bxSlider({
+        adaptiveHeight: true,
+        mode: 'fade'
+    });
+
+    $(document).ready(function () {
+
+        //Check to see if the window is top if not then display button
+        $(window).scroll(function () {
+            if ($(this).scrollTop() > 100) {
+                $('.scrollToTop').fadeIn();
+            } else {
+                $('.scrollToTop').fadeOut();
+            }
+        });
+
+        //Click event to scroll to top
+        $('.scrollToTop').click(function () {
+            $('html, body').animate({ scrollTop: 0 }, 800);
+            return false;
+        });
+
+    });
+
+</script>
+<script>
+    $(document).ready(function () {
+        // Add smooth scrolling to all links in navbar + footer link
+        $(".navbar a, footer a[href='#myPage'], .overlay-detail a").on('click', function (event) {
+
+            // Prevent default anchor click behavior
+            //event.preventDefault();
+            // lo anulo para que funcionen los link de inicio
+
+            // Store hash
+            var hash = this.hash;
+
+            // Using jQuery's animate() method to add smooth page scroll
+            // The optional number (900) specifies the number of milliseconds it takes to scroll to the specified area
+            $('html, body').animate({
+                scrollTop: $(hash).offset().top
+            }, 900, function () {
+
+                // Add hash (#) to URL when done scrolling (default click behavior)
+                window.location.hash = hash;
+            });
+        });
+    })
+</script>
+</body>
+
+</html>
+</form>
