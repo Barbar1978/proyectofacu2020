@@ -113,7 +113,7 @@ HEADER
 ************************************
 ***********************************/
 .header{
-    background: url('img/baner.jpg') no-repeat fixed;
+    background: url('img/logo\ estudio.jpg');
     background-size: cover;
     min-height: 650px;
     position: relative;
@@ -204,6 +204,7 @@ h2.bnr-sub-title
 .bnr-para
 {
     font-weight: 400;
+    background-color: #1d0aab;
 }
 .btn-download, .btn-more, .btn-download:hover, .btn-more:hover, .btn-download:focus, .btn-more:focus
 {
@@ -458,7 +459,7 @@ TESTIMONIAL
 }
 .white
 {
-    color: #fff !important;
+    color: #f6f5ff !important;
 }
 .testimonial-item ul li blockquote {
     font-size: 18px;
@@ -572,7 +573,10 @@ contact
 ***********************************/
 #contact
 {
-    background-color: rgb(28, 60, 119);
+    background: url('img/jubilaciones.jpg');
+    background-size: cover;
+    min-height: 650px;
+    position: relative;
 }
 
 /***********************************
@@ -733,6 +737,7 @@ Responsive media queries
 }
 h1.bnr-title {
     font-size: 16px;
+    
 }
 h2.bnr-sub-title {
     font-size: 33px;
